@@ -1,7 +1,7 @@
 # VO2Max_Calculator
 Vo2Max CALCULATOR FOR RUNNING ATHLETS
 
-
+![Logo](logo.png)
 # 🏃‍♂️ VO2max Calculator (Rockport 1-Mile Test)
 
 A lightweight Python desktop application to estimate maximal oxygen uptake (**VO2max**) using the scientifically validated **Rockport 1-Mile Test** formula.
