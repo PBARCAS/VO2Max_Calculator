@@ -1,33 +1,28 @@
-# VO2Max_Calculator
-Vo2Max CALCULATOR FOR RUNNING ATHLETS
+## VO2max Calculator — Rockport Walk Test
 
-![Logo](logo.png)
-# 🏃‍♂️ VO2max Calculator (Rockport 1-Mile Test)
+A simple app that calculates your **VO2max** — the maximum amount of oxygen your body can use during exercise. It is the most reliable indicator of cardiovascular fitness.
 
-A lightweight Python desktop application to estimate maximal oxygen uptake (**VO2max**) using the scientifically validated **Rockport 1-Mile Test** formula.
+---
 
-## 📝 Overview
+### How to perform the test (Rockport 1-Mile Walk Test)
 
-This app features a clean graphical user interface (GUI) built with `tkinter`. Users input their core metrics to instantly view their VO2max score and fitness classification.
+1. **Find a flat 1.6 km route** (e.g. a track — 4 laps of 400m)
+2. **Walk as fast as possible** — do not run
+3. **Record your time** from start to finish (in minutes)
+4. **Immediately after finishing** measure your heart rate for exactly **1 minute** (or 15 seconds × 4)
+5. Enter your data into the app and press **Calculate**
 
-### 🧬 Physiological Logic
-The algorithm accounts for natural cardiovascular aging. As age increases, standard markers like Maximum Heart Rate (Max HR) and stroke volume decrease. Therefore, an older individual achieving the same time and heart rate as a younger person reflects a higher relative fitness level, which this formula accurately calculates.
+---
 
-## 🚀 Features
+### Understanding your result
 
-- 💻 **Native GUI:** Powered by Python's built-in `tkinter` library (no external installations required).
-- ⚡ **Real-Time Calculation:** Instant results and fitness tiering at the click of a button.
-- 🛡️ **Input Validation:** Built-in error handling to prevent crashes from empty or invalid data.
+| VO2max | Fitness Level |
+|---|---|
+| < 30 | Low — needs improvement |
+| 30–40 | Average / Moderate |
+| 40–50 | Very Good — active lifestyle |
+| > 50 | Excellent — athlete level |
 
-## 🛠️ Quick Start
+---
 
-### Run from Source
-Ensure you have Python 3 installed. No external packages are needed.
-
-```bash
-# Clone the repository
-git clone [https://github.com/YOUR-USERNAME/vo2max-calculator.git](https://github.com/YOUR-USERNAME/vo2max-calculator.git)
-cd vo2max-calculator
-
-# Run the app
-python vo2max_app.py
+> ⚠️ **Note:** Wear comfortable shoes, warm up lightly before the test, and avoid eating or intense exercise 2 hours beforehand. If you have any health concerns, consult your doctor before performing the test.
