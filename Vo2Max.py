@@ -68,7 +68,7 @@ main_frame = ttk.Frame(root, padding="50")
 main_frame.pack(fill=tk.BOTH, expand=True)
 #==========================================
 # Logo
-logo_image = Image.open("Pedro_Green_5.png")
+logo_image = Image.open("Pedro_Green_6.png")
 logo_image = logo_image.resize((180, 180))
 
 logo_photo = ImageTk.PhotoImage(logo_image)
