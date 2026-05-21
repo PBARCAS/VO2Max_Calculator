@@ -1,5 +1,5 @@
 ## VO2max Calculator — Rockport Walk Test
-![App Screenshot](screenshot.png)
+![App Screenshot]https://github.com/PBARCAS/VO2Max_Calculator/blob/main/screenshot.png
 
 A simple app that calculates your **VO2max** — the maximum amount of oxygen your body can use during exercise. It is the most reliable indicator of cardiovascular fitness.
 
